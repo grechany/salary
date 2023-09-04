@@ -1,11 +1,12 @@
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
 h1 {
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: 5%;
 }
 
 .input-container {
