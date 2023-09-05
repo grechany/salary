@@ -5,21 +5,27 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 5%;
 }
 
 .input-container {
-    margin: 10px;
+    margin: 15px;
 }
 
 label {
     font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 input {
     padding: 5px;
-    width: 100px;
+    width: 150px;
+}
+
+select:hover {
+    cursor: pointer;
 }
 
 button {
@@ -28,6 +34,10 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #299ef8;
 }
 
 .result {

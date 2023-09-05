@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salary Calculator</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -16,16 +15,15 @@
             <option value="RUB">RUB</option>
             <option value="USD">USD</option>
             <option value="KZT">KZT</option>
-            <!-- Добавьте другие валюты по вашему выбору -->
-          </select>
+        </select>
     </div>
     <div class="input-container">
         <label for="workDays">Work Days in a Month:</label>
-        <input type="number" id="workDays" placeholder="Enter the number of work days">
+        <input class="input" type="number" id="workDays" placeholder="The number of work days">
     </div>
     <div class="input-container">
         <label for="workHours">Work Hours per Day:</label>
-        <input type="number" id="workHours" placeholder="Enter the number of work hours per day">
+        <input type="number" id="workHours" placeholder="The number of work hours per day">
     </div>
     <button id="calculate">Calculate Hourly Salary</button>
     <div id="result" class="result"></div>
